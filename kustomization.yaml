@@ -1,0 +1,9 @@
+resources:
+  - database/segredo/db-secret.yaml
+  - database/service/db-service.yaml
+  - database/privatevolumeclaim/db-pvc.yaml
+  - database/deployment/db-deployment.yaml
+  - wordpress/service/svc-wordpress.yaml
+  - wordpress/privatevolumeclaim/pvc-wordpress.yaml
+  - wordpress/deployment/deploy-wordpress.yaml
+    
